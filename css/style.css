@@ -1,0 +1,102 @@
+header {
+    
+    height: 100px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 10px;
+    background-color: #ddd;
+
+
+}
+
+nav a {
+    color: rgb(125, 125, 125);
+    text-decoration: none;
+    font-size: 30px;
+    /* transition: font-size .25s ease; */
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
+    width: 80%;
+  }
+.one-wide {
+    display: flex;
+    width: 100%;
+
+}
+
+.three-wide  {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    
+}
+.three-wide img{
+    width: 100%;
+flex: 1;
+}
+
+.one-two-wide {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    
+  }
+
+.one-two-wide p {
+flex: 2;
+width: 50%;
+overflow: scroll;
+height: 300px;
+
+}
+.one-two-wide img {
+    flex: 1;
+    width: 50%;
+    max-width:480px ;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .css-button {
+    background-color: #888a8c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+  }
+  
+  .css-button:hover {
+    background-color: #3e3f41;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  div{
+    flex-direction: row;
+  }
+  
+  .footer-content {
+    max-width: 960px; /* Adjust to your preferred width */
+    margin: 0 auto;
+  }
